@@ -52,7 +52,7 @@ export default class Navbar extends Component {
                             <Link to='/'>Home</Link>
                         </li>
                         <li>
-                            <Link to='/movie/add'>Add Movie</Link>
+                            <Link to='/movies/add'>Add Movie</Link>
                         </li>
                     </ul>
                 </div>
