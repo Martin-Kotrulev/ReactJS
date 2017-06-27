@@ -24,13 +24,10 @@ export default class Navbar extends Component {
         return (
             <nav className='nav navbar-default navbar-static-top'>
                 <div className='navbar-header'>
-                    <button type='button'
-                        data-toggle='collapse'
-                        data-target='#navbar'>
-                        <span className='sr-only'>Toggle Navigation</span>
-                        <span className='icon-bar'/>
-                        <span className='icon-bar'/>
-                        <span className='icon-bar'/>
+                    <button type='button' className='navbar-toggle' data-toggle='collapse' data-target='#navbar'>
+                        <span className='icon-bar'></span>
+                        <span className='icon-bar'></span>
+                        <span className='icon-bar'></span>                        
                     </button>
                     <Link to='/' className='navbar-brand'>
                         <span
@@ -49,8 +46,7 @@ export default class Navbar extends Component {
                         MDB
                     </Link>
                 </div>
-                <div id='navbar'
-                    className='navbar-collapse collapse'>
+                <div id='navbar' className='collapse navbar-collapse'>
                     <ul className='nav navbar-nav'>
                         <li>
                             <Link to='/'>Home</Link>
